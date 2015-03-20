@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="AdtBundleWindowsX86WorkspaceGOOGLEPLAYSERVICESLIBUnspecified.aar" >
+        <source path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\build\exploded-bundles\AdtBundleWindowsX86WorkspaceGOOGLEPLAYSERVICESLIBUnspecified.aar\assets" />
+    </dataSet>
+    <dataSet config="AdtBundleWindowsX86WorkspaceVolleyUnspecified.aar" >
+        <source path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\build\exploded-bundles\AdtBundleWindowsX86WorkspaceVolleyUnspecified.aar\assets" />
+    </dataSet>
+    <dataSet config="AdtBundleWindowsX86WorkspaceAndroidSupportV7AppcompatUnspecified.aar" >
+        <source path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\build\exploded-bundles\AdtBundleWindowsX86WorkspaceAndroidSupportV7AppcompatUnspecified.aar\assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets" >
+            <file
+                name="fonts/roboto/NOTICE.txt"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\roboto\NOTICE.txt" />
+            <file
+                name="fonts/roboto/Roboto-Black.ttf"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\roboto\Roboto-Black.ttf" />
+            <file
+                name="fonts/roboto/Roboto-BlackItalic.ttf"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\roboto\Roboto-BlackItalic.ttf" />
+            <file
+                name="fonts/roboto/Roboto-Bold.ttf"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\roboto\Roboto-Bold.ttf" />
+            <file
+                name="fonts/roboto/Roboto-BoldCondensed.ttf"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\roboto\Roboto-BoldCondensed.ttf" />
+            <file
+                name="fonts/roboto/Roboto-BoldCondensedItalic.ttf"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\roboto\Roboto-BoldCondensedItalic.ttf" />
+            <file
+                name="fonts/roboto/Roboto-BoldItalic.ttf"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\roboto\Roboto-BoldItalic.ttf" />
+            <file
+                name="fonts/roboto/Roboto-Condensed.ttf"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\roboto\Roboto-Condensed.ttf" />
+            <file
+                name="fonts/roboto/Roboto-CondensedItalic.ttf"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\roboto\Roboto-CondensedItalic.ttf" />
+            <file
+                name="fonts/roboto/Roboto-Italic.ttf"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\roboto\Roboto-Italic.ttf" />
+            <file
+                name="fonts/roboto/Roboto-Light.ttf"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\roboto\Roboto-Light.ttf" />
+            <file
+                name="fonts/roboto/Roboto-LightItalic.ttf"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\roboto\Roboto-LightItalic.ttf" />
+            <file
+                name="fonts/roboto/Roboto-Medium.ttf"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\roboto\Roboto-Medium.ttf" />
+            <file
+                name="fonts/roboto/Roboto-MediumItalic.ttf"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\roboto\Roboto-MediumItalic.ttf" />
+            <file
+                name="fonts/roboto/Roboto-Regular.ttf"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\roboto\Roboto-Regular.ttf" />
+            <file
+                name="fonts/roboto/Roboto-Thin.ttf"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\roboto\Roboto-Thin.ttf" />
+            <file
+                name="fonts/roboto/Roboto-ThinItalic.ttf"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\roboto\Roboto-ThinItalic.ttf" />
+            <file
+                name="fonts/SOURCESANSPRO-BLACK.OTF"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\SOURCESANSPRO-BLACK.OTF" />
+            <file
+                name="fonts/SOURCESANSPRO-BLACKIT.OTF"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\SOURCESANSPRO-BLACKIT.OTF" />
+            <file
+                name="fonts/SOURCESANSPRO-BOLD.OTF"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\SOURCESANSPRO-BOLD.OTF" />
+            <file
+                name="fonts/SOURCESANSPRO-BOLDIT.OTF"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\SOURCESANSPRO-BOLDIT.OTF" />
+            <file
+                name="fonts/SOURCESANSPRO-EXTRALIGHT.OTF"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\SOURCESANSPRO-EXTRALIGHT.OTF" />
+            <file
+                name="fonts/SOURCESANSPRO-EXTRALIGHTIT.OTF"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\SOURCESANSPRO-EXTRALIGHTIT.OTF" />
+            <file
+                name="fonts/SOURCESANSPRO-IT.OTF"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\SOURCESANSPRO-IT.OTF" />
+            <file
+                name="fonts/SOURCESANSPRO-LIGHT.OTF"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\SOURCESANSPRO-LIGHT.OTF" />
+            <file
+                name="fonts/SOURCESANSPRO-LIGHTIT.OTF"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\SOURCESANSPRO-LIGHTIT.OTF" />
+            <file
+                name="fonts/SOURCESANSPRO-REGULAR.OTF"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\SOURCESANSPRO-REGULAR.OTF" />
+            <file
+                name="fonts/SOURCESANSPRO-SEMIBOLD.OTF"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\SOURCESANSPRO-SEMIBOLD.OTF" />
+            <file
+                name="fonts/SOURCESANSPRO-SEMIBOLDIT.OTF"
+                path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\assets\fonts\SOURCESANSPRO-SEMIBOLDIT.OTF" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\adt-bundle-windows-x86\workspace\NyumbaKumi\build-types\debug\assets" />
+    </dataSet>
+
+</merger>

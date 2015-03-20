@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.nyumbakumi"
+    android:versionCode="5"
+    android:versionName="1.5" >
+	
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+    
+    <!-- So that we can get the account name -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <permission
+        android:name="com.app.navigation.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.app.navigation.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+	
+    <!-- Required if we need to invalidate access tokens -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    
+    <!-- My Location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <instrumentation android:targetPackage="com.app.nyumbakumi" android:name="android.test.InstrumentationTestRunner"></instrumentation>
+    
+    <!-- Maps API needs OpenGL ES 2.0. -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <!-- End of copy. -->
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_launcher"
+        android:label="@string/app_name"
+        android:name="com.app.nyumbakumi.framework.AppController"
+        android:theme="@style/AppTheme" >
+        
+        <uses-library android:name="android.test.runner"/>
+        
+        <!-- Required for applications which use Google Play Services. -->
+        <meta-data android:name="com.google.android.gms.version" 
+            android:value="@integer/google_play_services_version" />
+        
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyA4w9qbZcSMeo-A5Ryq7VQVCSGvFH-wXjQ" />
+        
+        <activity
+            android:name="com.app.nyumbakumi.SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <receiver
+            android:name=".push.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="com.app.nyumbakumi" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".push.GcmIntentService" />
+        
+        <activity
+            android:name="com.app.nyumbakumi.ContactScreen" 
+            android:configChanges="touchscreen|keyboardHidden|orientation|layoutDirection|screenLayout">
+        </activity>
+        
+        <activity
+            android:name="com.app.nyumbakumi.Login"  
+            android:configChanges="touchscreen|keyboardHidden|orientation|layoutDirection|screenLayout">
+        </activity>
+        
+        <activity
+            android:name="MEstateFragment"  
+            android:configChanges="touchscreen|keyboardHidden|orientation|layoutDirection|screenLayout">
+        </activity>
+        
+        <activity
+            android:name="com.app.nyumbakumi.SignUpActivity" 
+            android:configChanges="touchscreen|keyboardHidden|orientation|layoutDirection|screenLayout" >
+        </activity>
+        
+        <activity
+            android:name="CreateGroup"  
+            android:configChanges="touchscreen|keyboardHidden|orientation|layoutDirection|screenLayout">
+        </activity>
+        
+        <activity
+            android:name="Profile"  
+            android:configChanges="touchscreen|keyboardHidden|orientation|layoutDirection|screenLayout">
+        </activity>
+                
+        <activity
+            android:name="MainActivity"  
+            android:configChanges="touchscreen|keyboardHidden|orientation|layoutDirection|screenLayout"/>
+                        
+        <activity
+            android:name="PanicMainActivity" 
+            android:configChanges="touchscreen|keyboardHidden|orientation|layoutDirection|screenLayout">
+        </activity>
+        
+        <activity
+            android:name="ProfilePhoto" 
+            android:configChanges="touchscreen|keyboardHidden|orientation|layoutDirection|screenLayout">
+        </activity>
+        
+        <activity
+            android:name="VerificationActivity" 
+            android:configChanges="touchscreen|keyboardHidden|orientation|layoutDirection|screenLayout">
+        </activity>
+        <service android:name="com.app.nyumbakumi.util.MyAppService"></service>
+        <service android:name="com.app.nyumbakumi.util.MUserService"></service>
+    </application>
+
+</manifest>

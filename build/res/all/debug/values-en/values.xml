@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/adt-bundle-windows-x86/workspace/NyumbaKumi/res/values-en/strings.xml -->
+    <string-array name="accordion_sections">
+        <item>Security Services</item>
+        <item>Ambulance Services</item>
+        <item>Fire Station Services</item>
+    </string-array>
+    <string-array name="accordion_string_1">
+        <item>Security 1</item>
+        <item>Security 2</item>
+        <item>Security 3</item>
+        <item>Security 4</item>
+    </string-array>
+    <string-array name="accordion_string_2">
+        <item>Security 1</item>
+        <item>Security 2</item>
+        <item>Security 3</item>
+        <item>Security 4</item>
+    </string-array>
+    <string-array name="accordion_string_3">
+        <item>Security 1</item>
+        <item>Security 2</item>
+        <item>Security 3</item>
+        <item>Security 4</item>
+    </string-array>
+    <string-array name="accordion_string_4">
+        <item>Security 1</item>
+        <item>Security 2</item>
+        <item>Security 3</item>
+        <item>Security 4</item>
+    </string-array>
+
+    <integer-array name="accordion_visibility">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <string name="action_settings">Settings</string>
+    <string name="alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="app_name">Ujirani</string>
+    <string name="copyright">(c)2014 Ujirani</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login">Login</string>
+    <string name="passwoedHolderText">password</string>
+    <string name="phone_number">phone number</string>
+    <string name="sign_in_with_facebook">Sign in with Facebook</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="submit">Submit</string>
+    <string name="username">username</string>
+
+</resources>

@@ -1,0 +1,5 @@
+1. The second process is for the added members for them is the splash screen -> sign up -> complete their profile -> the timeline
+2. When completing their profiles they should be able to upload a picture 
+3. Fetch List of members and show
+4. Order of Panic menu
+5. Check that group members don't have same names
